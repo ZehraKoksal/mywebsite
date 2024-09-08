@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zehra Köksal | Y Software</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url(./pngtree-purple-yellow-watercolor-contrast-background-picture-image_1432691.jpg); /* Change to your desired background color */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"></a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Aboutme.html">About me</a></li>
+                <li><a href="Y_software.html">Y Software</a></li>
+                <li><a href="Research.html">Research</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+    <div class="intro">
+        <h1>Y Software</h1>
+        <p>Software for applications of SNPs on the Y chromosome:
+        <a href="#idSNPtotree">
+            <img class="snptotree_button" src="./snptotree_button_unclick.png" alt="button for snptotree" style="height: 40px;">
+            </a>
+        <a href="#idPhyloImpute">
+            <img class="phyloimpute_button" src="./phyloimpute_button_unclick.png" alt="button for phyloimpute" style="height: 40px;">
+            </a>
+        </p>
+    </div>
+
+
+    <div class="SNPtotree" id="idSNPtotree">
+        <header>
+            <h2>SNPtotree</h2>
+        </header>
+        
+        <p>SNPtotree identifies which biallelic variants on non-recombining DNA have phylogenetic properties based on sequencing data and establishes a phylogenetic tree of these variants.</p>
+        <img class="gif" src="./snptotree_clip.gif" alt="Description of GIF">
+        <section>
+            <h3>Installation and Getting Started</h3>
+            <p>Command-line tool is available on github including installation and getting started documentation:
+                <a href="https://github.com/ZehraKoksal/SNPtotree" target="_blank">
+                    <img class="github-icon" src="./github_unclick.png" style="width: 25px;">    
+                </a></p>
+            <p>You can also follow this step-by-step tutorial:</p>
+            <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/6fhPjLxvgY0?" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+        </section>
+
+        <section>
+            <h3>Communication</h3>
+            <section>
+                <p>Peer-reviewed publication:
+                    <a href="https://www.mdpi.com/2073-4425/14/10/1837" target="_blank">Köksal, Z.; Børsting, C.; Gusmão, L.; Pereira, V. SNPtotree—Resolving the Phylogeny of SNPs on Non-Recombining DNA. Genes 2023, 14, 1837. https://doi.org/10.3390/genes14101837 
+                    </a></p>
+            </section>
+            
+            <section>
+                <p>Oral presentation at ISMB/ECCB 2023:</p>
+                    <img class="photo" src="./iscb2023_room.jpg" alt="Description of Image">
+                    <img class="photo" src="./1718006568916.jpg" alt="Description of Image">
+                    <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/ANCXh1pXyjk?" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+            </section>
+            
+            <section>
+                <p>Poster presentation at 8th Annual Danish Bioinformatics Conference 2024:</p>
+                    <iframe class="pdf" src="./Poster_DBioInfo2024_ZK_FINAL.pdf" height="300" width="70%"></iframe>
+            </section>
+                       
+            
+        </section>
+
+        <section>
+            <h3>Case Study</h3>
+            <p>Generating phylogenetic tree of Native American haplogroup Q (Aug 2024):
+                <a href="https://onlinelibrary.wiley.com/doi/10.1155/2024/3046495" target="_blank">Application of Targeted Y-Chromosomal Capture Enrichment to Increase the Resolution of Native American Haplogroup Q
+                </a></p>
+
+            
+        </section>
+    </div>
+
+    <p> </p> 
+
+    <div class="Phyloimpute" id="idPhyloImpute">
+        <h2>PhyloImpute</h2>
+        <p>PhyloImpute imputes missing SNP data on haploid DNA by leveraging the SNPs’ phylogeny in a selected phylogenetic tree. The user can further explore the data and its quality. This includes a haplogroup prediction that is highly customizable using a preinstalled or custom phylogenetic tree. The user can identify sample mixtures, backmutations and recurrent mutations. Finally, sequencing errors and erroneous/incomplete tree structures can be identified.</p>
+        <img class="gif2" src="./Phyloimpute_gif.gif" alt="Description of GIF">
+        <section>
+            <h3>Installation and Getting Started</h3>
+            <p>Command-line tool is available on github including installation and getting started documentation:
+                <a href="https://github.com/ZehraKoksal/PhyloImpute" target="_blank">
+                    <img class="github-icon" src="./github_unclick.png" style="width: 25px;">    
+                </a></p>
+            
+            <section><p>The software is also available with a graphical user interface for Windows:
+                <a href="./PhyloImpute_Windows.zip" download>
+                    <button class="download-btn" onclick="window.location.href='https://drive.google.com/uc?export=download&id=15ff1XYa4YeYi_vr5IDVZeZK49tKmWIoh'">
+                        Download PhyloImpute v1.0 GUI (ZIP)
+                    </button>
+                    
+                    
+                  </a>
+                  <br>Download the compressed folder by clicking on the button, unzip the folder, double-click the .exe file called "phyloimpute_windows - Shortcut" and navigate through the graphical user interface.
+                </p>
+            </section>
+            
+
+            
+        <section>
+            <h3>Communication</h3>
+            <section>
+
+            </section>
+        <section>
+
+        </div>
+            
+        </section>
+
+    </div>
+
+    </div> 
+    <script src="script.js"></script>
+</body>
+
+
+</html>
